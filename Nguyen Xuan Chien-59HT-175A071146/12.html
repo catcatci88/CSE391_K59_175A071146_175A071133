@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tạo form và các điều khiển trên form</title>
+    <style >
+      body{
+        overflow: scroll;
+      }
+    </style>
+</head>
+<body>
+   <form>
+      <h2 style="color: #009933  ;text-align: center;">Phiếu đăng ký tham gia chương trình khuyến mãi</h2>
+     	<table border="1" cellspacing="2" cellpadding="0" style="background-color:#ccffeb;color: #009933">
+       		<tr>
+                <td>Họ và tên</td>
+                <td><input type="text" name="ht" size="40px"></td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td><input type="text" name="dc" size="30px"></td>
+            </tr>
+            <tr>
+                <td>Điện thoại</td>
+                <td><input type="text" name="dt"></td>
+            </tr>
+            <tr>
+                <td>Phái</td>
+                <td>
+                  <input type="radio" name="checkbox" value="Nam">Nam
+                  <input type="radio" name="checkbox" value="Nữ">Nữ
+                </td>
+            </tr>
+            <tr>
+                <td>Nghề nghiệp</td>
+                <td><select id="nghenghiep">
+                  <option value="gv">Giáo viên</option>
+                  <option value="tk">Thiết kế</option>
+                  <option value="hdv">HDV du lịch</option>
+                  <option value="lt">Lập trình viên</option>
+                </select></td>
+            </tr>
+            <tr>
+              <td>Chọn sản phẩm tham gia</td>
+              <td><select id="sanpham" size="4" multiple="multiple">
+                <option value="kdr" selected="">Kem đánh răng</option>
+                <option value="bg">Bột giặt</option>
+                <option selected="selected" value="dg">Dầu gội đầu</option>
+                <option value="st">Sữa tắm </option>
+              </select></td>
+            </tr>
+            <tr>
+              <td>Số người tham gia dự đoán</td>
+              <td><input type="text" name="sntgdd" size="10px"></td>
+            </tr>
+            <tr>
+              <td align="center" colspan="2"><button  type="button" onclick="xuat.innerText">Đồng ý</button>
+              </td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2">
+                  <div id="xuat"></div>
+                </td>
+            </tr>
+
+
+          
+     	</table>
+   	
+   </form>
+</body>
+</html>

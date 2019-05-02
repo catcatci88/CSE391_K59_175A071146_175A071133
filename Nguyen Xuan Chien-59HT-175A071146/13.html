@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tạo form và các điều khiển trên form</title>
+    <style>
+      body{
+        overflow: scroll;
+      }
+    </style>
+</head>
+<body>
+   <form>
+      <h2 style="color: #009933  ;text-align: center;">Đăng ký du lịch</h2>
+     	<table border="1" cellspacing="2" cellpadding="0" style="background-color:#ccffeb;color: #009933">
+       		<tr>
+                <td>Họ và tên</td>
+                <td><input type="text" name="ht" size="40px"></td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td><input type="text" name="dc" size="30px"></td>
+            </tr>
+            <tr>
+                <td>Điện thoại</td>
+                <td><input type="text" name="dt"></td>
+            </tr>
+            <tr>
+                <td>Khách Việt Nam</td>
+                <td>
+                  <label for="label"><input type="checkbox" id="label" name="label" value=""></label>
+                </td>
+            </tr>
+            <tr>
+            <td>Chọn tour</td>
+            <td>
+              <select>
+                <optgroup label="Miền Bắc">
+                  <option value="label1">Hà Nội - Đà Lạt- Nha Trang</option>
+                  <option value="label2">Hà Nội - Chùa Hương - Thái Bình</option>
+                  <option value="label3">Hà Nội - Đà Nẵng - Phú Quốc</option>
+                </optgroup>
+
+                <optgroup label="Miền Trung">
+                  <option value="label4">Nghệ An-Thanh Hóa-Ninh Bình</option>
+                  <option value="label5">Nha Trang - Hà Nội- Sapa</option>
+                  
+                </optgroup>
+
+                <optgroup label="Miền Nam">
+                  <option value="7">TP.HCM - Phú Quốc</option>
+                  <option value="8">TP.HCM - Hạ Long</option>
+                </optgroup>
+            </select>
+            </td>
+
+
+            <tr>
+              <td>Phương tiện</td>
+              <td>
+                <input type="radio" name="checkbox">Máy bay
+                <input type="radio" name="checkbox">Xe ô tô
+              </td>
+
+            </tr>
+            <tr>
+            <td colspan="2" align="center">
+              <fieldset style="border:1;width:350px;height:55px">
+                <legend>Số lượng đoàn khách</legend>
+                  <div style="text-align: center;" >
+                    Người lớn: <input style="width:50px" type="text">
+                    Trẻ em: <input style="width:50px" type="text">
+                  </div>
+              </fieldset>
+            </td>
+          </tr> 
+
+            
+            <tr>
+              <td>Ghi chú thêm</td>
+              <td><textarea style="width:200px"></textarea></td>
+
+            </tr>
+            <tr>
+              <td align="center" colspan="2"><button  type="button" onclick="xuat.innerText">Đồng ý</button>
+              </td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2">
+                  <div id="xuat"></div>
+                </td>
+            </tr>
+
+
+          
+     	</table>
+   	
+   </form>
+</body>
+</html>
