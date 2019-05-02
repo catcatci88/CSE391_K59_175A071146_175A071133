@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script type="text/javascript">
+
+	function getText(){
+		document.getElementById("text").innerHTML = document.getElementById("txtName").value;
+		
+	}
+
+	
+
+	</script>
+</head>
+<body>
+	<div class="col-sm-4"></div>	
+	<div class="col-sm-4">
+		<h3 style=" padding-left:120px;  color: red;">Đăng Nhập</h3>
+		<table style=" padding-left: 500px; background-color: #93baf9; border: 1px solid #000">
+			<thead>
+			<tbody>
+				<tr style="">
+					<td style="padding: 10px;border: 1px solid #000;">Mã Người Dùng</td>
+					<td style="padding: 10px;border: 1px solid #000;"><input type="text" name="user" id="txtName" /></td>
+				</tr>
+				<tr>
+					<td style="padding: 10px;border: 1px solid #000;">Mật Khẩu</td>
+					<td style="padding: 10px;border: 1px solid #000;"><input type="password" name="password"/></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td style="padding: 10px;"><input type="button" onclick="getText()" value="Đồng Ý" /></td>
+				</tr>
+				<tr style="border: 1px solid #000;">
+					<td></td>
+					<td id="text" style="color: blue;"> </td>
+					<td></td>
+				</tr>
+
+			</tbody>
+		</table>
+	</div>
+	<div class="col-sm-4"></div>
+</body>
+</html>
