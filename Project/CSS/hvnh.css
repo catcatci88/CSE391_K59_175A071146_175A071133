@@ -1,0 +1,95 @@
+header{
+    text-decoration: none;
+    
+}
+
+.row{
+    background-color: #B8DBE7;
+    height: 140px;
+    
+
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 25px 50px 75px 100px;
+    
+} 
+.logo a{
+    text-decoration: none;
+}
+
+.logo h1{
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.huychuong{
+    padding: 50px 50px;
+    
+}
+.lienhe{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.form-group input{
+    width: 100px;
+    
+}
+.container{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dropbtn {
+    background-color: #ffffff;
+    color: rgb(63, 93, 189);
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #828fc9;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding:4px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #d2d5e0}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #0a2d9e;
+  } 
+  .lienhe a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}
+.form-group{
+    width: 80px;
+}
+
