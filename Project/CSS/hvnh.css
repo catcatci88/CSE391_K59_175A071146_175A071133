@@ -3,7 +3,7 @@ header{
     
 }
 
-.row{
+.container-fluid .row{
     background-color: #B8DBE7;
     height: 140px;
     
@@ -89,7 +89,14 @@ header{
     color: black;
     font-size: 10px;
 }
-.form-group{
-    width: 80px;
+.row h2{
+  width: 100%;
 }
+.home-nd2{
+  background-color: rgb(19, 129, 192);
+}
+.box-nd2{
+  background-color: white;
+}
+
 
