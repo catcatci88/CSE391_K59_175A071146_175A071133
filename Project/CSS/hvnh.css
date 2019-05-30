@@ -1,43 +1,83 @@
-header{
-    text-decoration: none;
-    
+body {
+  font-family: Arial !important;
 }
-
-.container-fluid .row{
-    background-color: #B8DBE7;
-    height: 140px;
-    
-
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
-.logo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
-    padding: 25px 50px 75px 100px;
-    
-} 
-.logo a{
-    text-decoration: none;
+.phandau {
+  background: linear-gradient(to bottom, #FFFFFF, rgba(146, 200, 218, 0.68));
+  padding: 15px 0;
 }
-
-.logo h1{
-    font-size: 23px;
-    font-weight: bold;
-    text-decoration: none;
-    
+.phandau a {
+  text-decoration: none;
 }
-.huychuong{
-    padding: 50px 50px;
-    
+.phandau .logo img {
+  width: 21%;
+  float: left;
 }
-.lienhe{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.phandau .huychuong {
+  text-align: center;
+  margin: 15px 0 0 0;
 }
-.form-group input{
-    width: 100px;
-    
+.phandau h1 {
+  font-size: 20pt;
+  margin: 15px 0 0 110px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #007398;
+  font-family: Time New Romance !important;
+}
+.phandau .lienhe a {
+  margin: 15px 10px 0px 0px;
+  display: inline-block;
+  float: right;
+}
+.phandau .lienhe img {
+  width: 22px;
+  margin: 0;
+}
+.phandau .lienhe a h3 {
+  font-size: 12pt;
+  margin: 0;
+  color: black;
+}
+.phandau .lienhe a h3 .fa {
+  color: #F7C901;
+}
+.form-group{
+  margin-left: 150px;
+  width: 60%;
+  display: flex;
+  padding-top: 20px !important;
+  
+}
+.form-group button{
+  margin-left: 5px;
+  background-color: #FFFFFF;
+}
+.dieuhuong{
+  display: flex;
+  justify-content: center;
+  background-color:  #007398;
+  z-index: 10;
+}
+.dieuhuong p{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.dieuhuong .navbar-default{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.dieuhuong .dropdown{
+  margin-top: 10px;
+}
+.dieuhuong .dropbtn{
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .container{
     margin: auto;
@@ -46,8 +86,8 @@ header{
     align-items: center;
 }
 .dropbtn {
-    background-color: #ffffff;
-    color: rgb(63, 93, 189);
+    background-color:  #007398;
+    color: #FFFFFF;
     padding: 10px;
     font-size: 16px;
     border: none;
@@ -62,7 +102,7 @@ header{
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #828fc9;
+    background-color: #007398;
     min-width: 300px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -75,28 +115,113 @@ header{
     display: block;
   }
   
-  .dropdown-content a:hover {background-color: #d2d5e0}
+  .dropdown-content a:hover {background-color: #056382}
   
   .dropdown:hover .dropdown-content {
     display: block;
   }
   
   .dropdown:hover .dropbtn {
-    background-color: #0a2d9e;
+    background-color: #056382;
   } 
   .lienhe a{
     text-decoration: none;
     color: black;
     font-size: 10px;
-}
-.row h2{
-  width: 100%;
-}
-.home-nd2{
-  background-color: rgb(19, 129, 192);
-}
-.box-nd2{
-  background-color: white;
-}
+  }
 
+.noidung1 h2 {
+  font-size: 18pt;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #007398;
+  margin: 2.8% 1.4% 2.4% 1.4%;
+}
+.noidung1 .ban-tin-1 h3 {
+  font-size: 12pt;
+  text-align: justify;
+  font-weight: 600;
+  margin: 3.6% 0 1.4% 0;
+  line-height: 20px;
+  color: #3d4548;
+}
+.noidung1 .tin-khac {
+  margin-top: 3%;
+}
+.noidung1 .tin-khac h2 {
+  margin: 0;
+  margin-bottom: 4.5%;
+  text-align: center;
+  font-size: 13pt;
+  font-weight: 600;
+  background: #007398;
+  color: white;
+  padding: 5px 0;
+  text-transform: uppercase;
+}
+.noidung1 h2 {
+  width: 100%;
+  font-size: 18pt;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #007398;
+  margin: 2.8% 1.4% 2.4% 1.4%;
+}
+.noidung1 .ban-tin-1 h5 {
+  font-size: 10pt;
+  text-align: justify;
+  line-height: 18px;
+  margin: 2.5% 0 0 0;
+}
+.noidung1 .tin-khac a span.fa.fa-angle-right {
+  display: block;
+}
+.noidung1 .tin-khac a h3 {
+  font-size: 11pt;
+  text-align: justify;
+  color: #3d4548;
+  margin: -15px 0px 12px 14px;
+}
+.noidung2 .box-nd2 h2 {
+  font-size: 14px !important;
+}
+.noidung2 {
+  background: url(../Images/banner-nen.png);
+  background-position: bottom;
+  padding: 4.4% 0 2.6% 0;
+}
+.noidung2 .box-nd2 {
+background: white;
+padding-bottom: 23px;
+margin-bottom: 25px;
+}
+.noidung2 .box-nd2 h2 {
+font-size: 14px !important;
+}
+.noidung2 .box-nd2 h2 {
+margin: 15px 12px 0px 12px;
+font-size: 12pt;
+text-transform: uppercase;
+font-weight: 600;
+letter-spacing: -0.5px;
+overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 1;
+}
+h2 {
+font-size: 18px !important;
+}
+.noidung2 .box-nd2 h5 {
+margin: 7px 12px 0 12px;
+font-size: 10pt;
+text-align: justify;
+line-height: 18px;
+overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 3;
+}
 
