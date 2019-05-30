@@ -79,6 +79,14 @@ body {
   padding-top: 5px;
   padding-bottom: 5px;
 }
+.fa-angle-double-right{
+  color: #FFFFFF;
+  font-size: 70%;
+  padding-right: 5px;
+}
+.fa-caret-down{
+  font-size: 70%;
+}
 .container{
     margin: auto;
     display: flex;
@@ -224,4 +232,5 @@ display: -webkit-box;
 -webkit-box-orient: vertical;
 -webkit-line-clamp: 3;
 }
+
 

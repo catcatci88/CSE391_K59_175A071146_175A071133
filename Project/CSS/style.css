@@ -1,7 +1,3 @@
-body{
-    font: Arial;
-
-}
 
 h2{
     font-weight: 600;
@@ -49,7 +45,7 @@ h5 a:hover{
 .button a:hover {background-color: #ffed00; color: #007398}
 
 .home-banner-phan-cach {
-    background: url('../image/banner-ngan-cach.png');
+    background: url('../Images/banner-ngan-cach.png');
     background-position: bottom;
     padding: 45px 0 50px 0;
 }
@@ -98,10 +94,10 @@ h5 a:hover{
 }
 
 .home-khoa {
-    background:url('../image/banner-khoa.png');
+    background:url('../Images/banner-khoa.png');
     background-repeat: no-repeat;
     background-position: bottom;
-        padding: 3.7% 0 3.9% 0;s
+    padding: 3.7% 0 3.9% 0;
 }
 
 .row.home-khoa {
@@ -118,10 +114,9 @@ h5 a:hover{
 }
 
 .home-khoa h5 {
-    font-weight: 600;
-    font-size: 14px;
-    color: #fff;
-
+    color: white;
+    font-size: 10pt;
+    margin: 0 0 3px 0;
 }
 
 .home-bottom {
@@ -129,7 +124,20 @@ h5 a:hover{
     color: white;
     padding-bottom: 2%;
 }
-
+.home-bottom h2 {
+    font-size: 20pt;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fefefe;
+}
 .home-bottom p{
     font-size: 14px;
+}
+.home-bottom p {
+    color: #f7ffff;
+    line-height: 20px!important ;
+    font-family: Arial;
+}
+.home-bottom .row{
+    width: 100%;
 }
