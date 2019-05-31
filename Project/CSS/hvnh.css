@@ -9,7 +9,7 @@ body {
 }
 .phandau {
   background: linear-gradient(to bottom, #FFFFFF, rgba(146, 200, 218, 0.68));
-  padding: 15px 0;
+  padding: 0 0 15px 0;
 }
 .phandau a {
   text-decoration: none;
@@ -87,12 +87,6 @@ body {
 .fa-caret-down{
   font-size: 70%;
 }
-.container{
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .dropbtn {
     background-color:  #007398;
     color: #FFFFFF;
@@ -117,10 +111,11 @@ body {
   }
   
   .dropdown-content a {
-    color: black;
+    color: #FFFFFF;
     padding:4px 16px;
     text-decoration: none;
     display: block;
+    font-size: 14px;
   }
   
   .dropdown-content a:hover {background-color: #056382}
@@ -231,6 +226,153 @@ text-overflow: ellipsis;
 display: -webkit-box;
 -webkit-box-orient: vertical;
 -webkit-line-clamp: 3;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+h2{
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+h5{
+  font-size: 16px;
+}
+
+h5 a{
+  color: #000;
+}
+
+h5 a:hover{
+  color: #000;
+}
+
+.img{
+  width: 100%;
+}
+
+.text{
+  text-align: center;
+  background-color: #fff;
+}
+
+
+.text ul {width: 100%;display: inline-block;list-style: none; padding-left: 10px;}
+.text ul li a{font-size: 12pt;text-align: justify;color: #3d4548; padding-left: 10px;}
+.text ul li{position: relative;float: left; }
+
+.text1 ul {width: 100%;display: inline-block;list-style: none; padding-left: 0;}
+.text1 ul li a{font-size: 12pt;text-align: justify;color: #3d4548; padding-left: 10px;}
+.text1 ul li{position: relative;float: left; }
+
+.row{padding-top: 20px;}
+.vu0{background-color: #F5F5F5}
+.ttts{background-color: #fff;}
+
+.button{text-align: center; padding-top: 20px; padding-bottom: 40px;}
+
+.button a{background-color: #007398; color: #fff; padding: 10px; text-decoration: none;}
+.button a:hover {background-color: #ffed00; color: #007398}
+
+.home-banner-phan-cach {
+  background: url('../Images/banner-ngan-cach.png');
+  background-position: bottom;
+  padding: 45px 0 50px 0;
+}
+
+.home-banner-phan-cach .box-thong-ke h3 {
+  font-size: 45pt;
+  margin: -11% 0 0 0;
+  padding-bottom: 22%;
+  border-bottom: 2px solid #FAC900;
+  float: right;
+  color: #fff;
+}    
+
+.home-banner-phan-cach .box-thong-ke h5 {
+  font-size: 13pt;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 24px;
+  margin-left: -10%;
+  color: #fff;
+}
+
+.home-nd4 {
+  padding: 10px 0;
+}
+
+.home-nd4 .box-nd4 img {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.box-nd4{
+  text-align: center;
+
+}
+
+.box-nd4 h5{
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 300;
+  margin: 0;
+  color: #3d4548;
+
+}
+
+.home-khoa {
+  background:url('../Images/banner-khoa.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding: 3.7% 0 3.9% 0;
+}
+
+
+.row.home-khoa {
+  margin-bottom: 20px;
+  padding: 0;
+  background: none;
+}
+
+.home-khoa h4 {
+  color: #fecb02;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 10pt;
+}
+
+.home-khoa h5 {
+  color: white;
+  font-size: 10pt;
+  margin: 0 0 3px 0;
+}
+
+.home-bottom {
+  background: #005779;
+  color: white;
+  padding-bottom: 2%;
+}
+.home-bottom h2 {
+  font-size: 20pt;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fefefe;
+}
+.home-bottom p{
+  font-size: 14px;
+}
+.home-bottom p {
+  color: #f7ffff;
+  line-height: 20px!important ;
+  font-family: Arial;
+}
+.home-bottom .row{
+  width: 100%;
 }
 
 
