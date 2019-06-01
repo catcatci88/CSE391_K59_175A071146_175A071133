@@ -408,7 +408,7 @@ h5 a:hover{
 
 }
 .bantin-day-du h2 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   text-align: justify;
   margin: 1.5% 0 0.5% 0;
@@ -555,4 +555,8 @@ h5 a:hover{
   display: block;
   font-size: 10pt;
   color: #3d4548;
+}
+.bantin-day-du .giam-doc-1 #img{
+  width: 100%;
+  padding-left: 80%;
 }
