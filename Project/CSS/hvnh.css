@@ -62,7 +62,7 @@ body {
   display: flex;
   justify-content: center;
   background-color:  #007398;
-  z-index: 10;
+  z-index: 10px;
 }
 .dieuhuong p{
   margin-bottom: 0px;
@@ -214,7 +214,7 @@ display: -webkit-box;
 -webkit-line-clamp: 1;
 }
 h2 {
-font-size: 18px !important;
+font-size: 18px ;
 }
 .noidung2 .box-nd2 h5 {
 margin: 7px 12px 0 12px;
@@ -358,7 +358,7 @@ h5 a:hover{
   padding-bottom: 2%;
 }
 .home-bottom h2 {
-  font-size: 20pt;
+  font-size: 18px;
   text-transform: uppercase;
   font-weight: 600;
   color: #fefefe;
@@ -374,5 +374,185 @@ h5 a:hover{
 .home-bottom .row{
   width: 100%;
 }
+.tin .ban-tin {
+  background: url(http://www.hvnh.edu.vn/themes/main/images/banner-ban-tin.png);
+  background-position: bottom;
+  margin: 0;
+  padding: 6% 0;
+  margin-bottom: 2.2%;
+  
+}
+.tin .ban-tin h3{
+  margin: 0;
+  color: white;
+  font-size: 18pt;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.tin .menu-ban-tin h4{
+  margin: 0 0 0.4% 0;
+  font-size: 11pt;
+  text-transform: uppercase;
+  text-align: justify;
+  font-weight: 600;
+  color: #007398;
+}
+.tin .menu-ban-tin .duong-line{
+  border-top: 2px solid #fac900;
+  width: 80px;
+}
+.tin .menu a{
+  font-size: 14px;
+  color: #000;
+  padding-right: 10px;
 
+}
+.bantin-day-du h2 {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: justify;
+  margin: 1.5% 0 0.5% 0;
+  line-height: 22px;
+  color: #007398;
+  text-transform: none;
+}
+.box-view i {
+  font-style: normal;
+  font-size: 10pt;
+  color: #aaa9a9;
+}
+ .box-view i.fa {
+  color: #1C9AD6;
+}
+.bantin-day-du h5{
+  font-size: 8pt;
+  margin: 0% 0 0% 0;
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
 
+.bantin-day-du .giam-doc img{
+  height: 234.859px;
+  width: 345px;
+  margin-left: auto; 
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+.bantin-day-du .giam-doc p{
+  text-align: center;
+  margin: 0% 0 0% 0;
+  font-size: 8pt;
+  font-weight: bold;
+  padding-top: 2px;
+}
+.bantin-day-du .p-giam-doc h2{
+  font-size: 8pt;
+  margin: 30px 0 0% 0;
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
+.bantin-day-du .p-giam-doc .pgd  img{
+  width: 193px;
+  height: 144.641px;
+}
+.bantin-day-du .p-giam-doc p{
+  font-size: 8pt;
+  margin: 0% 0 0% 0;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 2px;
+}
+.bantin-day-du .p-giam-doc .row .col{
+  width: 193px;
+  height: 144.641px;
+  margin: 0px;
+  padding: 0px;
+}
+.bantin-day-du .cac-tin-khac{
+  padding-top: 21%;
+}
+.bantin-day-du .mxh{
+  display: flex;
+  justify-content: center;
+}
+.bantin-day-du .cac-tin-khac .mxh1{
+  background: url(../Images/fb.png);
+  background-repeat: no-repeat;
+  height: 44px;
+  width: 70px;
+  
+}
+.bantin-day-du .cac-tin-khac .mxh2{
+  background: url(../Images/gg.png);
+  background-repeat: no-repeat;
+  height: 44px;
+  width: 70px;
+  
+}
+.bantin-day-du .tin-khac h2 {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: justify;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  line-height: 22px;
+  color: #007398;
+  text-transform: none;
+}
+.tin-khac i.fa{
+  display: block;
+}
+.bantin-day-du .tin-khac h3{
+  line-height: 17.9px;
+  font-size: 10pt;
+  text-align: justify;
+  color: #3d4548;
+  margin: -15px 0px 11px 14px;
+
+}
+.tt-tuyen-sinh{
+  background: #F2F1EB;
+  border-radius: 5px;
+  padding: 6% 5% 2% 5%;
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+.tt-tuyen-sinh a{
+  margin-bottom: 7%;
+}
+.tt-tuyen-sinh h2{
+  text-align: justify;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0;
+}
+.tt-tuyen-sinh .duong-line-2{
+  border-top: 1px solid #007398;
+  margin-top: -0.2%;
+  margin-bottom: 5.5%;
+}
+.tt-tuyen-sinh span{
+  display: block;
+  font-size: 3pt;
+  line-height: 10px;
+  margin-left: 25px;
+  color: #3d4548;
+}
+
+.tt-tuyen-sinh h5{
+  line-height: 16px;
+  font-size: 10.5pt;
+  text-align: justify;
+  color: #3d4548;
+  margin: -15px 0px 16px 40px;
+}
+.tt-tuyen-sinh i{
+  text-align: right;
+  display: block;
+  font-size: 10pt;
+  color: #3d4548;
+}
