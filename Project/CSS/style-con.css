@@ -1,0 +1,120 @@
+/*html15*/
+.header{
+  background-color: #CCC;
+}
+ol.breadcrumb a {
+    color: #3d4548;
+    font-size: 14px;
+}
+
+ol.breadcrumb {
+    padding: 0;
+    font-weight: bold;
+    background-color: #CCC;
+    margin: -17px  15px  0px 0px ;
+    text-align: left;
+}
+.nation a {
+  margin: -17px 15px 0px 0px;
+  display: inline-block;
+  float: right;
+  text-align: center;
+}
+.nation a img {
+  width: 22px;
+  margin: 0;
+}
+.web-banner{
+  height:190px;
+  background:url(http://210.245.26.173:6788/qlnh/11.2017/qlnh.admin/media/Web%20banner.jpg);
+  background-size: 100% 100%;
+}
+.thanhmenu{
+  background: #1266AF;
+  border: 1px solid white;
+  margin-top: 87px;
+  width: 100%;
+  height: 55px;
+}
+.thanhmenu .dropbtn{
+  background: #1266AF;
+  float: left;
+  display: inline;
+}
+/*hvnh16*/
+.tintuc .banner-ban-tin{
+  background: url(../image/banner-ban-tin.png);
+  background-position: bottom;
+  padding: 78px ;
+  color: #FFF;
+}
+
+.danh-sach-tin .ban-tin-hvnh .row.box-ban-tin-hvnh-1 a h3 {
+    margin: 0px 0px 0.5% 0%;
+    font-size: 12pt;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: justify;
+}
+.danh-sach-tin .ban-tin-hvnh .box-ban-tin-2, .gioi-thieu .ban-tin-hvnh .box-ban-tin-2 {
+    background: #F2F1EB;
+    border-radius: 5px;
+    padding: 6% 5% 2% 5%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    }
+.danh-sach-tin .ban-tin-hvnh .box-ban-tin-2 .box-ban-tin-2-a .duong-line-1, .gioi-thieu .ban-tin-hvnh .box-ban-tin-2 .box-ban-tin-2-a .duong-line-1 {
+    border-top: 1px solid #007398;
+    margin-top: -0.2%;
+    margin-bottom: 5.5%;
+  }
+.danh-sach-tin .ban-tin-hvnh .box-ban-tin-2 .box-ban-tin-2-a a h5, .gioi-thieu .ban-tin-hvnh .box-ban-tin-2 .box-ban-tin-2-a a h5 {
+    line-height: 16px;
+    font-size: 10.5pt;
+    text-align: justify;
+    color: #3d4548;
+    margin: -15px 0px 16px 40px;
+  }
+.danh-sach-tin .ban-tin-hvnh .box-ban-tin-2 .box-ban-tin-2-a a i, .gioi-thieu .ban-tin-hvnh .box-ban-tin-2 .box-ban-tin-2-a a i {
+    text-align: left;
+    display: block;
+    font-size: 10pt;
+    color: #3d4548;
+  }
+.danh-sach-tin .ban-tin-hvnh .box-ban-tin-2 .box-ban-tin-2-a a p, .gioi-thieu .ban-tin-hvnh .box-ban-tin-2 .box-ban-tin-2-a a p {
+    text-align: right;
+    display: block;
+    font-size: 10pt;
+    color: #3d4548;
+  }
+  /*html24*/
+  h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.ban-tin-hvnh{
+  margin-top: 20px;
+}
+  .danh-sach-tin .ban-tin-hvnh h4, .gioi-thieu .ban-tin-hvnh h4 {
+    margin: 0 0 0.4% 0;
+    font-size: 11pt;
+    text-transform: uppercase;
+    text-align: justify;
+    font-weight: 600;
+    color: #007398;}
+}
+.danh-sach-tin .ban-tin-hvnh .duong-line, .gioi-thieu .ban-tin-hvnh .duong-line {
+    border-top: 2px solid #fac900;
+    width: 80px;
+}
+.danh-sach-tin .ban-tin-hvnh .ban-tin-menu a, .gioi-thieu .ban-tin-hvnh .ban-tin-menu a {
+    color: #3d4548;
+}
+.danh-sach-tin .ban-tin-hvnh ul li, .gioi-thieu .ban-tin-hvnh ul li {
+    display: inline-table;
+    font-size: 11pt;
+}
