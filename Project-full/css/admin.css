@@ -1,0 +1,134 @@
+body {
+  font-family: Arial !important;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.phandau {
+  background: linear-gradient(to bottom, #FFFFFF, rgba(146, 200, 218, 0.68));
+  padding: 0 0 15px 0;
+}
+.phandau a {
+  text-decoration: none;
+}
+.phandau .logo img {
+  width: 21%;
+  float: left;
+}
+.phandau .huychuong {
+  text-align: center;
+  margin: 15px 0 0 0;
+}
+.phandau h1 {
+  font-size: 20pt;
+  margin: 15px 0 0 110px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #007398;
+  font-family: Time New Romance !important;
+}
+.phandau .lienhe a {
+  margin: 15px 10px 0px 0px;
+  display: inline-block;
+  float: right;
+}
+.phandau .lienhe img {
+  width: 22px;
+  margin: 0;
+}
+.phandau .lienhe a h3 {
+  font-size: 12pt;
+  margin: 0;
+  color: black;
+}
+.phandau .lienhe a h3 .fa {
+  color: #F7C901;
+}
+.form-group{
+  margin-left: 150px;
+  width: 60%;
+  display: flex;
+  padding-top: 20px !important;
+  
+}
+.form-group button{
+  margin-left: 5px;
+  background-color: #FFFFFF;
+}
+.dieuhuong{
+  display: flex;
+  justify-content: center;
+  background-color:  #007398;
+  z-index: 10;
+}
+.dieuhuong p{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.dieuhuong .navbar{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.dieuhuong .dropdown{
+  margin-top: 10px;
+}
+.dieuhuong .dropbtn{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.fa-angle-double-right{
+  color: #FFFFFF;
+  font-size: 70%;
+  padding-right: 5px;
+}
+.fa-caret-down{
+  font-size: 70%;
+}
+.dropbtn {
+  background-color:  #007398;
+  color: #FFFFFF;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #007398;
+  min-width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #FFFFFF;
+  padding:4px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+}
+
+.dropdown-content a:hover {background-color: #056382}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #056382;
+} 
+
+.form-signin {
+  float: right;
+}
