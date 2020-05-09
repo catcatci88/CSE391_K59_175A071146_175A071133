@@ -6,3 +6,4 @@ git push // update len hithub
 git log // hien thi time, date,.. update
 git revert ten commit ( ex:089146e91792a5b219cb67440b9082028f9087d2)
 git pull //update truc tiep tren hithub roi update lai tren may
+https://thachpham.com/tools/git-branch-ky-thuat-phan-nhanh.html
